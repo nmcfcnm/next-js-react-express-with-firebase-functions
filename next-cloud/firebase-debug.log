@@ -1,0 +1,164 @@
+[debug] [2019-04-03T19:23:25.298Z] ----------------------------------------------------------------------
+[debug] [2019-04-03T19:23:25.301Z] Command:       /home/nitin/.nvm/versions/node/v11.11.0/bin/node /home/nitin/.nvm/versions/node/v11.11.0/bin/firebase deploy
+[debug] [2019-04-03T19:23:25.301Z] CLI Version:   6.5.1
+[debug] [2019-04-03T19:23:25.301Z] Platform:      linux
+[debug] [2019-04-03T19:23:25.301Z] Node Version:  v11.11.0
+[debug] [2019-04-03T19:23:25.302Z] Time:          Thu Apr 04 2019 00:53:25 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:23:25.302Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-03T19:23:25.311Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-03T19:23:25.311Z] > authorizing via signed-in user
+[debug] [2019-04-03T19:23:25.311Z] [iam] checking project uinnkjnjknk for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2019-04-03T19:23:25.313Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/uinnkjnjknk:testIamPermissions  
+
+[debug] [2019-04-03T19:23:27.778Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T19:23:27.781Z] >>> HTTP REQUEST GET https://firebase.googleapis.com/v1beta1/projects/uinnkjnjknk  
+ 
+[debug] [2019-04-03T19:23:28.796Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Deploying to 'uinnkjnjknk'...
+[info] 
+[info] i  deploying functions, hosting
+[debug] [2019-04-03T19:23:31.676Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "dependencies": {
+    "babel-plugin-module-resolver": "^3.2.0",
+    "express": "^4.16.4",
+    "firebase-admin": "~4.2.1",
+    "firebase-functions": "^2.2.1",
+    "next": "^3.0.3",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2",
+    "styled-jsx": "^1.0.10",
+    "webpack": "^3.0.0"
+  },
+  "private": true
+}
+[info] i  functions: ensuring necessary APIs are enabled...
+[debug] [2019-04-03T19:23:31.677Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/uinnkjnjknk?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-03T19:23:31.678Z] >>> HTTP REQUEST GET https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/uinnkjnjknk?view=CONSUMER_VIEW  
+ 
+[debug] [2019-04-03T19:23:34.571Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T19:23:34.663Z] <<< HTTP RESPONSE 200
+[info] ✔  functions: all necessary APIs are enabled
+[debug] [2019-04-03T19:23:34.665Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/uinnkjnjknk  
+ 
+[debug] [2019-04-03T19:23:36.656Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T19:23:36.657Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/115955506144:getServerAppConfig  
+ 
+[debug] [2019-04-03T19:23:37.407Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T19:23:37.409Z] >>> HTTP REQUEST POST https://firebasehosting.googleapis.com/v1beta1/sites/uinnkjnjknk/versions  
+
+[debug] [2019-04-03T19:23:40.316Z] <<< HTTP RESPONSE 200
+[info] i  functions: preparing dist/functions directory for uploading...
+[debug] [2019-04-03T19:23:40.319Z] >>> HTTP REQUEST GET https://runtimeconfig.googleapis.com/v1beta1/projects/uinnkjnjknk/configs  
+ 
+[debug] [2019-04-03T19:23:42.236Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T19:24:19.079Z] ----------------------------------------------------------------------
+[debug] [2019-04-03T19:24:19.082Z] Command:       /home/nitin/.nvm/versions/node/v11.11.0/bin/node /home/nitin/frustration/lastsebhilast/next-cloud/node_modules/.bin/firebase serve
+[debug] [2019-04-03T19:24:19.082Z] CLI Version:   3.16.0
+[debug] [2019-04-03T19:24:19.082Z] Platform:      linux
+[debug] [2019-04-03T19:24:19.082Z] Node Version:  v11.11.0
+[debug] [2019-04-03T19:24:19.083Z] Time:          Thu Apr 04 2019 00:54:19 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:24:19.083Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-03T19:24:19.094Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-03T19:24:19.095Z] > authorizing via signed-in user
+[debug] [2019-04-03T19:24:19.097Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/uinnkjnjknk  
+  
+ Thu Apr 04 2019 00:54:19 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:24:21.151Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T19:24:21.152Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/uinnkjnjknk/tokens  
+  
+ Thu Apr 04 2019 00:54:21 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:24:22.556Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/nitin/frustration/lastsebhilast/next-cloud'...
+[info] 
+[debug] [2019-04-03T19:24:22.560Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/uinnkjnjknk  
+  
+ Thu Apr 04 2019 00:54:22 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:24:24.594Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T19:24:24.595Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/115955506144/clients/_:getWebAppConfig  
+  
+ Thu Apr 04 2019 00:54:24 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:24:25.437Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[info] [hosting] Rewriting / to live function nextApp
+[info] Shutting down...
+[info] Shutting down...
+[debug] [2019-04-03T19:25:27.074Z] ----------------------------------------------------------------------
+[debug] [2019-04-03T19:25:27.077Z] Command:       /home/nitin/.nvm/versions/node/v11.11.0/bin/node /home/nitin/frustration/lastsebhilast/next-cloud/node_modules/.bin/firebase serve
+[debug] [2019-04-03T19:25:27.077Z] CLI Version:   3.16.0
+[debug] [2019-04-03T19:25:27.077Z] Platform:      linux
+[debug] [2019-04-03T19:25:27.077Z] Node Version:  v11.11.0
+[debug] [2019-04-03T19:25:27.077Z] Time:          Thu Apr 04 2019 00:55:27 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:25:27.077Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-03T19:25:27.089Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-03T19:25:27.090Z] > authorizing via signed-in user
+[debug] [2019-04-03T19:25:27.092Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/uinnkjnjknk  
+  
+ Thu Apr 04 2019 00:55:27 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:25:29.274Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T19:25:29.276Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/uinnkjnjknk/tokens  
+  
+ Thu Apr 04 2019 00:55:29 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:25:34.259Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/nitin/frustration/lastsebhilast/next-cloud'...
+[info] 
+[debug] [2019-04-03T19:25:34.263Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/uinnkjnjknk  
+  
+ Thu Apr 04 2019 00:55:34 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:25:37.439Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-03T19:25:37.440Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/115955506144/clients/_:getWebAppConfig  
+  
+ Thu Apr 04 2019 00:55:37 GMT+0530 (India Standard Time)
+[debug] [2019-04-03T19:25:38.141Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] ✔  hosting: Local server: http://localhost:5000
+
+[info] [hosting] Rewriting / to live function app
+[info] [hosting] Rewriting /_next/800cbbf8-f021-4737-a8f2-98cdae4e13cc/page/index to live function app
+[info] [hosting] Rewriting /_next/800cbbf8-f021-4737-a8f2-98cdae4e13cc/page/_error/index.js to live function app
+[info] [hosting] Rewriting /_next/3c6fb49dcb117ce228aecebe9a5e38aa/app.js to live function app
+[info] [hosting] Rewriting /_next/800cbbf8-f021-4737-a8f2-98cdae4e13cc/page/about to live function app
+[info] [hosting] Rewriting /ok to live function app
+[info] [hosting] Rewriting / to live function app
+[debug] [2019-04-04T15:03:41.662Z] ----------------------------------------------------------------------
+[debug] [2019-04-04T15:03:41.665Z] Command:       /home/nitin/.nvm/versions/node/v11.11.0/bin/node /home/nitin/frustration/lastsebhilast/next-cloud/node_modules/.bin/firebase serve
+[debug] [2019-04-04T15:03:41.666Z] CLI Version:   3.16.0
+[debug] [2019-04-04T15:03:41.666Z] Platform:      linux
+[debug] [2019-04-04T15:03:41.666Z] Node Version:  v11.11.0
+[debug] [2019-04-04T15:03:41.666Z] Time:          Thu Apr 04 2019 20:33:41 GMT+0530 (India Standard Time)
+[debug] [2019-04-04T15:03:41.666Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-04T15:03:41.701Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-04T15:03:41.701Z] > authorizing via signed-in user
+[debug] [2019-04-04T15:03:41.703Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/uinnkjnjknk  
+  
+ Thu Apr 04 2019 20:33:41 GMT+0530 (India Standard Time)
+[debug] [2019-04-04T15:03:43.233Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-04T15:03:43.235Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/uinnkjnjknk/tokens  
+  
+ Thu Apr 04 2019 20:33:43 GMT+0530 (India Standard Time)
+[debug] [2019-04-04T15:03:44.457Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/home/nitin/frustration/lastsebhilast/next-cloud'...
+[info] 
+[debug] [2019-04-04T15:03:44.461Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/uinnkjnjknk  
+  
+ Thu Apr 04 2019 20:33:44 GMT+0530 (India Standard Time)
+[debug] [2019-04-04T15:03:46.267Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-04T15:03:46.268Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/115955506144/clients/_:getWebAppConfig  
+  
+ Thu Apr 04 2019 20:33:46 GMT+0530 (India Standard Time)
+[debug] [2019-04-04T15:03:46.840Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: dist/public
+[info] ✔  hosting: Local server: http://localhost:5000
+

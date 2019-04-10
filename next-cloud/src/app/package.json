@@ -1,0 +1,19 @@
+{
+  "name": "nextjs",
+  "description": "Next.js on Firebase",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "next build"
+  },
+  "dependencies": {
+    "babel-plugin-module-resolver": "^3.2.0",
+    "firebase-functions": "^2.2.1",
+    "next": "^3.2.3",
+    "react": "^15.6.2",
+    "react-dom": "^15.6.2",
+    "styled-jsx": "^1.0.10",
+    "webpack": "^3.0.0"
+  }
+}
